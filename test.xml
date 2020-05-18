@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_241" class="java.beans.XMLDecoder">
+ <object class="panel.DesignPanel">
+  <void method="add">
+   <object class="javax.swing.JButton">
+    <string>Click me !</string>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JTable"/>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JLabel">
+    <void property="text">
+     <string>A valid label :)</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JTable"/>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JComboBox" id="JComboBox0">
+    <void property="model">
+     <void property="selectedItem">
+      <string>Stefan</string>
+     </void>
+     <void method="addElement">
+      <string>Stefan</string>
+     </void>
+     <void method="addElement">
+      <string>Dragoi</string>
+     </void>
+     <void method="addElement">
+      <string>Java</string>
+     </void>
+    </void>
+    <void property="renderer">
+     <void property="location">
+      <object class="java.awt.Point" id="Point0">
+       <void class="java.awt.Point" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="Point0"/>
+         <int>-42</int>
+        </void>
+       </void>
+       <void class="java.awt.Point" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Point0"/>
+         <int>-18</int>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="text">
+      <string>Stefan</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JTable"/>
+  </void>
+  <void property="border">
+   <object class="javax.swing.border.EtchedBorder">
+    <int>1</int>
+    <null/>
+    <null/>
+   </object>
+  </void>
+ </object>
+</java>
